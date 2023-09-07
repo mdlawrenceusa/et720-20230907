@@ -1,7 +1,7 @@
 <nav class="col-sm-4">
-  <a routerLink="/home">newest</a>
-  <a routerLink="/categories">catalogue</a>
-  <a routerLink="/footer">contact</a>
+  <p><a routerLink="/home">newest</a></p>
+  <p> <a routerLink="/categories">catalogue</a></p>
+  <p><a routerLink="/footer">contact</a> </p>
 </nav>
 
 
@@ -14,12 +14,16 @@
 
 <header class="container">
   <div class="row">
-    <h1 class="col-sm-8">Skillfair</h1>
+    <a class="col-sm-8" [routerLink]="['/']">
+      <h1>Skillfair</h1>
+    </a>
+
     <nav class="col-sm-4">
-      <p>newest</p>
-      <p>catalogue</p>
-      <p>contact</p>
+      <p><a routerLink="/home">newest</a></p>
+      <p> <a routerLink="/categories">catalogue</a></p>
+      <p><a routerLink="/footer">contact</a> </p>
     </nav>
+
   </div>
 </header>
 
