@@ -17,6 +17,8 @@ import { VideosComponent } from './videos/videos.component';
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: ProductListComponent },
+      { path: 'videos', component: VideosComponent },
+
     ])
   ],
   declarations: [
